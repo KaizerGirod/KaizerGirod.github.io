@@ -23,7 +23,24 @@
         <p class="tagline">Catchy tagline</p>
     </header>
     <main>
-    <!--Content-->
+    <form action="/my-handling-form-page" method="past">
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+            </li>
+            <li><label for="email">Email:</label>
+                <input type="email" id="email" name="user_email">
+            </li>
+                 <li><label for="msg">Message:</label>
+                <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+            </li>
+            <li class="form-button">
+                <button type="submit">Send your message</button>
+            </li>
+        </ul>
+        
+    </form>
     </main>
     <footer>
         <small>Website by <a href="mailto:kaizer.girod@gmail.com">Kaizer Girod</a>,  &copy;2024.</small>
