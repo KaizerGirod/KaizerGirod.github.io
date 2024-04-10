@@ -23,22 +23,26 @@
         <p class="tagline">Catchy tagline</p>
     </header>
     <main>
-    <form action="/my-handling-form-page" method="past">
+    <form action="https://api.sheetmonkey.io/form/3CifcitKHPP5WAfDkF86f2" method="past">
         <ul>
             <li>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name">
+                <input type="text" id="name" name="Name">
             </li>
             <li><label for="email">Email:</label>
-                <input type="email" id="email" name="user_email">
+                <input type="email" id="email" name="Email">
             </li>
                  <li><label for="msg">Message:</label>
-                <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+                <textarea name="Message" id="msg" cols="30" rows="10"></textarea>
             </li>
             <li class="form-button">
                 <button type="submit">Send your message</button>
             </li>
-        </ul>
+            <li>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Send message</button>
+            
+        </ul> 
         
     </form>
     </main>
