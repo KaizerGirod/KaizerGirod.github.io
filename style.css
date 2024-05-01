@@ -38,3 +38,7 @@ a:visited{
 p{
     max-width: 50%;
 }
+
+ body {
+    background-image: url(cherr-blossom-2.0.jpg);
+}
