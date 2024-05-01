@@ -1,0 +1,40 @@
+/****Kaizer Girod, MCC, 3/6/24*******/
+*{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+nav ul {
+	padding-left: 0;
+}
+				
+nav li {
+	list-style: none;
+}
+				
+nav a {
+	border-bottom: 1px solid #ccc;
+	display: block;
+	padding: .5rem .75rem;
+	text-decoration: none;
+}
+				
+nav a:hover, nav a:focus {
+	background-color: blue;
+	color: white;
+	outline: none;
+}
+
+nav a:active {
+	background-color: darkblue;
+}
+
+@media ( min-width: 600px ) {
+
+	nav a {
+		display: inline-block;
+	}
+	
+	nav li {
+		display: inline-block;
+	}
+
+}
