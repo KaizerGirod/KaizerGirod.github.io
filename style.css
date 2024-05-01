@@ -1,7 +1,11 @@
-h1, p {
-    text-decoration-color: 333333;
+h1, p{
+    text-decoration-color: powderblue;
+}
+ul{
+    padding-left: 0;
+    list-style-type: none;
 }
 
-p {
+p{
     max-width: 50%;
 }
