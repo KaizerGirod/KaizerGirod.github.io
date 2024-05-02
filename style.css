@@ -18,8 +18,8 @@ nav li{
     text-transform: uppercase;
     letter-spacing: .3rem;
 }
-nav a {
-	color: #4f5269;
+a {
+	color: rgb(35, 124, 160);
 	padding: .5rem .75rem;
 	text-decoration: none;
 }
@@ -66,8 +66,18 @@ font-size: 20px;
 
 main{
     font-size: 20px;
-    min-width: 10%;
-    max-width: 40%;
-    padding-left: 10rem;
+    min-width: 20%;
+    max-width: 60%;
+    padding-left: 20rem;
+    padding-top: 3%;
 }
+title{
+    padding-left: 30rem;
+}
+img {
+    width: 500px;
 
+}
+header{
+    padding-left: 40%;
+}
